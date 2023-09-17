@@ -11,6 +11,7 @@ public class StrongNumber {
 			int lastdigit = n % 10;
 			int fact = 1;
 			while (lastdigit > 0) {
+				
 				fact = fact * lastdigit;
 				lastdigit--;
 			}
